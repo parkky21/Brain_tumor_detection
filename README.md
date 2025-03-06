@@ -56,9 +56,7 @@ history = model.fit(train_data, train_labels, validation_data=(test_data, test_l
 ```
 
 ## 📊 Performance Metrics
-- **Loss:**  *<Provide Final Loss>*
-- **Validation Loss:**  *<Provide Final Val Loss>*
-- **Accuracy:** *<Provide Final Accuracy>*
+![download](https://github.com/user-attachments/assets/e3223f36-8ca2-4561-b821-28a85b6bdf9c)
 
 ## 💾 Saving & Loading the Model
 ```python
@@ -80,13 +78,5 @@ prediction = model.predict(img)
 print("Tumor Detected" if np.argmax(prediction) == 1 else "No Tumor")
 ```
 
-## 📌 Contributors
-- **Your Name**
-
-## ⭐ Acknowledgment
-- **Dataset Source:** <Provide Dataset Link>
-- **Frameworks Used:** TensorFlow, Keras, OpenCV
-
----
 ### 📢 If you find this project useful, don't forget to ⭐ star the repository!
 
